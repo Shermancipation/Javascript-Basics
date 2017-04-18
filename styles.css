@@ -18,7 +18,8 @@
   height: 100px;
   width: 940px;
   background: #D72638;
-  margin: auto;
+  margin: 0px 0px 0px 5px;
+  padding-left: 20px;
   border-radius: 20px;
   line-height: 100px;
 }
@@ -34,10 +35,10 @@ h1{
 }
 
 #navigation {
-  height: 300px;
-  width: 300px;
+  height: 275px;
+  width: 250px;
   background: #087E8B;
-  margin: 20px 0px 0px 20px;
+  margin: 20px 0px 0px 5px;
   display: inline-block;
   float: left;
   border-radius: 20px;
@@ -45,12 +46,12 @@ h1{
 
 #text {
   height: 660px;
-  width: 580px;
+  width: 630px;
   background: #0C1821;
   color: white;
   display: inline-block;
   margin: 20px 0px 0px 20px;
-  padding: 0px 20px 0px 20px;
+  padding: 0px 20px 0px 38px;
   border-radius: 20px;
 }
 
@@ -58,8 +59,25 @@ h1{
   height: 50px;
   width: 940px;
   background: #5C6672;
-  margin: 0px 10px 50px 10px;
+  margin: 0px 0px 0px 5px;
+  padding-left: 20px;
   border-radius: 20px;
   color: white;
   line-height: 50px;
+}
+
+a:link {
+  color: #2199AD;
+}
+
+a:visited {
+  color: #2199AD;
+}
+
+a:hover {
+  color: #2199AD;
+}
+
+a:active {
+  color: #2199AD;
 }
